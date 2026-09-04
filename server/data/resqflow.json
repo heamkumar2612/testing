@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password_hash": "$2b$10$pUgRmKEIoGPFTJ4EEAtOiumXYJTT.dzCgckK7c/.lCVn7N3eRhNpm",
+      "role": "Admin",
+      "entity_id": null,
+      "created_at": "2026-09-04T15:57:02.798Z"
+    },
+    {
+      "id": 2,
+      "username": "hospital",
+      "password_hash": "$2b$10$fRpbVHQpaJKqJoqcMxO8yOuCv2B6Ff4sVzc4sH/zatr/fOABXdPD2",
+      "role": "Hospital",
+      "entity_id": "hospital-1",
+      "created_at": "2026-09-04T15:57:02.890Z"
+    },
+    {
+      "id": 3,
+      "username": "ambulance",
+      "password_hash": "$2b$10$eEG1FuDlVjxvaA2Swt1SA..rLGNUbF.lE1zOMEYyMSAUkfLusfvne",
+      "role": "Ambulance",
+      "entity_id": "AMB-17",
+      "created_at": "2026-09-04T15:57:02.944Z"
+    },
+    {
+      "id": 4,
+      "username": "user",
+      "password_hash": "$2b$10$DUMxUIl86QBu8.4SFg0ox.hZ/cKjUpnCQoeQV0Jynbxk67PiGIS7i",
+      "role": "User",
+      "entity_id": null,
+      "created_at": "2026-09-04T15:57:03.001Z"
+    }
+  ],
+  "hospitals": [],
+  "emergencies": [
+    {
+      "id": "EMR-2048",
+      "patient": "Unknown male · approx. 32 yrs",
+      "condition": "Suspected chest trauma • altered consciousness • heavy bleeding",
+      "severity": "Critical",
+      "ambulance": "AMB-17",
+      "lat": null,
+      "lon": null,
+      "status": "Active",
+      "created_at": "2026-09-04T15:57:03.001Z",
+      "updated_at": "2026-09-04T15:57:03.001Z"
+    }
+  ],
+  "referrals": [],
+  "hospital_claims": [],
+  "ambulance_locations": [
+    {
+      "id": "AMB-17",
+      "ambulance_id": "AMB-17",
+      "lat": 10.775164968240343,
+      "lon": 79.17289790901289,
+      "emergency_id": "EMR-2048",
+      "destination_hospital_id": null,
+      "eta_minutes": 5,
+      "distance_km": 3.5633000000000004,
+      "updated_at": "2026-09-04T16:04:14.969Z"
+    }
+  ],
+  "ambulances": [
+    {
+      "id": "AMB-17",
+      "vehicle_number": "DEMO-AMB-17",
+      "crew_name": "Demo Crew",
+      "contact": "",
+      "type": "Advanced Life Support",
+      "status": "Active",
+      "created_at": "2026-09-04T15:57:03.001Z"
+    }
+  ],
+  "ambulance_access_requests": []
+}
