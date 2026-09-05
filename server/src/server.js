@@ -49,7 +49,58 @@ app.post('/api/auth/login',async(req,res)=>{
 app.get('/api/me',auth,(req,res)=>res.json({user:req.user}));
 
 app.get('/api/hospitals',auth,(req,res)=>res.json({hospitals:db.hospitals.map(serializeHospital)}));
-app.get('/api/hospitals/match',auth,(req,res)=>res.json({hospitals:db.hospitals.filter(h=>h.enabled===true&&h.status!=='Unavailable').map(serializeHospital)}));
+app.get('/api/hospitals/match',auth,(req,res)=>res.json({hospitals:db.hospitals.map(serializeHospital)}));
+
+function capabilityStatusFor(h,name){
+  const list=Array.isArray(h.capabilities)&&h.capabilities.length?h.capabilities:(Array.isArray(h.equipment)?h.equipment:[]);
+  const item=list.find(c=>String(typeof c==='object'?c.name:c).trim().toLowerCase()===String(name).trim().toLowerCase());
+  if(!item)return 'Unavailable';
+  return String(typeof item==='object'?(item.status||'Available'):'Available');
+}
+function computeHospitalMatch(hospitals,required,distances,excludedIds=[]){
+  const excluded=new Set((Array.isArray(excludedIds)?excludedIds:[]).map(String));
+  const req=[...new Set((Array.isArray(required)?required:[]).filter(Boolean))];
+  const distanceList=Array.isArray(distances)?distances:[];
+  const byKey=new Map();
+  for(const d of distanceList){if(d?.id)byKey.set(String(d.id),d);if(d?.osmId)byKey.set(String(d.osmId),d)}
+  const candidates=distanceList.map(d=>{
+    const key=String(d.id||d.osmId||'');
+    const h=hospitals.find(x=>String(x.osm_id||x.id)===key)||hospitals.find(x=>String(x.osm_id||'')===String(d.osmId||''));
+    const base={id:d.id||`candidate-${key}`,name:d.name||h?.name||'Hospital',location:[d.lat,d.lon],roadDistance:Number(d.roadDistance),roadDuration:Number(d.roadDuration),profileId:h?.id||null,clinicalDataAvailable:!!h};
+    if(!h)return {...base,eligible:false,ineligibleReason:'Clinical hospital readiness data required',score:0,scoreBreakdown:{capability:0,capacity:0,readiness:0,staff:0,load:0,distance:0}};
+    const statuses=req.map(x=>capabilityStatusFor(h,x));
+    const capabilityRaw=req.length?statuses.reduce((sum,x)=>sum+(x==='Available'?1:x==='Limited'?.5:0),0)/req.length:1;
+    const capability=Math.round(capabilityRaw*100);
+    const beds=Number(h.available_beds??h.beds??0), icu=Number(h.available_icu??h.icu??0);
+    const capacityRaw=Math.min(1,(Math.max(0,beds)/4)*.4+(Math.max(0,icu)/2)*.6);
+    const capacity=Math.round(capacityRaw*100);
+    const readinessRaw=h.enabled!==false&&h.status!=='Unavailable'?(h.status==='Ready'?1:h.status==='Busy'?.7:h.status==='Critical'?.35:h.status==='Limited'?.55:.45):0;
+    const readiness=Math.round(readinessRaw*100);
+    const staffText=String(h.staff||'').toLowerCase();
+    const staffRaw=staffText==='high'?1:staffText==='medium'?.7:staffText==='low'?.4:staffText==='unknown'?.5:.5;
+    const staff=Math.round(staffRaw*100);
+    const loadRaw=1-Math.max(0,Math.min(100,Number(h.load)||0))/100;
+    const load=Math.round(loadRaw*100);
+    const distanceRaw=Number.isFinite(Number(d.roadDistance))?Math.max(0,1-Math.min(1,Number(d.roadDistance)/15000)):0;
+    const distance=Math.round(distanceRaw*100);
+    const score=Math.round(capability*.35+capacity*.15+readiness*.15+staff*.10+load*.10+distance*.15);
+    const allUnavailable=req.length>0&&statuses.every(x=>x==='Unavailable');
+    const excludedHere=excluded.has(String(d.id||''))||excluded.has(String(d.osmId||''));
+    const eligible=h.enabled===true&&h.status!=='Unavailable'&&!allUnavailable&&!excludedHere;
+    let ineligibleReason=null;
+    if(h.enabled!==true)ineligibleReason='Emergency referrals disabled';
+    else if(h.status==='Unavailable')ineligibleReason='Hospital unavailable';
+    else if(allUnavailable)ineligibleReason='All required capabilities unavailable';
+    else if(excludedHere)ineligibleReason='Temporarily excluded after hospital status change';
+    return {...base,profileId:h.id,clinicalDataAvailable:true,eligible,ineligibleReason,score,scoreBreakdown:{capability,capacity,readiness,staff,load,distance},capabilityStatuses:Object.fromEntries(req.map((x,i)=>[x,statuses[i]])),status:h.status,enabled:h.enabled};
+  });
+  const eligible=candidates.filter(x=>x.eligible).sort((a,b)=>b.score-a.score);
+  return {candidates:candidates.sort((a,b)=>b.score-a.score),eligible,best:eligible[0]||null,clinicalAvailable:candidates.some(x=>x.clinicalDataAvailable)};
+}
+app.post('/api/hospitals/match',auth,role('Ambulance','Admin','Hospital','User'),(req,res)=>{
+  const x=req.body||{};
+  res.json(computeHospitalMatch(db.hospitals,x.required,x.distances,x.excludedIds));
+});
 app.get('/api/hospitals/mine',auth,role('Hospital','Admin'),(req,res)=>{
   const h=req.user.role==='Hospital'?db.hospitals.find(x=>x.owner_entity_id===req.user.entityId):null;
   res.json({hospital:h?serializeHospital(h):null});
