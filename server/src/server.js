@@ -534,4 +534,4 @@ app.post('/api/referrals',auth,(req,res)=>{
 });
 
 setInterval(cleanupExpiredDemoHospitalAccounts,60*1000);
-app.listen(PORT,()=>console.log(`Kairos API running on http://localhost:${PORT}`));
+app.listen(PORT,'0.0.0.0',()=>console.log(`Kairos API running on http://localhost:${PORT}`));
