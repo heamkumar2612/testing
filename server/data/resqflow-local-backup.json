@@ -1,0 +1,2190 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password_hash": "$2b$10$pUgRmKEIoGPFTJ4EEAtOiumXYJTT.dzCgckK7c/.lCVn7N3eRhNpm",
+      "role": "Admin",
+      "entity_id": null,
+      "created_at": "2026-09-04T15:57:02.798Z"
+    },
+    {
+      "id": 2,
+      "username": "hospital",
+      "password_hash": "$2b$10$fRpbVHQpaJKqJoqcMxO8yOuCv2B6Ff4sVzc4sH/zatr/fOABXdPD2",
+      "role": "Hospital",
+      "entity_id": "hospital-1",
+      "created_at": "2026-09-04T15:57:02.890Z"
+    },
+    {
+      "id": 3,
+      "username": "ambulance",
+      "password_hash": "$2b$10$eEG1FuDlVjxvaA2Swt1SA..rLGNUbF.lE1zOMEYyMSAUkfLusfvne",
+      "role": "Ambulance",
+      "entity_id": "AMB-17",
+      "created_at": "2026-09-04T15:57:02.944Z"
+    },
+    {
+      "id": 4,
+      "username": "user",
+      "password_hash": "$2b$10$DUMxUIl86QBu8.4SFg0ox.hZ/cKjUpnCQoeQV0Jynbxk67PiGIS7i",
+      "role": "User",
+      "entity_id": null,
+      "created_at": "2026-09-04T15:57:03.001Z"
+    },
+    {
+      "id": 5,
+      "username": "Anna Hospital",
+      "password_hash": "$2b$10$oiyR1e9kD9rbly4ZzukfC.jUdT9FastcZdgdTBURe0h4fkFbzrD4y",
+      "role": "Hospital",
+      "entity_id": "hospital-1",
+      "created_at": "2026-09-05T07:20:07.473Z"
+    },
+    {
+      "id": 6,
+      "username": "Railtree Railway Hospital",
+      "password_hash": "$2b$10$DrsktfkiaqfYzMVyRWKJCezwyKLfbLG856CpQWO7HwDX2HUveasLi",
+      "role": "Hospital",
+      "entity_id": "hospital-2",
+      "created_at": "2026-09-05T07:20:07.526Z"
+    },
+    {
+      "id": 7,
+      "username": "Army Hospital",
+      "password_hash": "$2b$10$D0gqSEDNxZt76W4kRYtjGellrJH0Ie7043gCNUQMDUTaIgB/d37di",
+      "role": "Hospital",
+      "entity_id": "hospital-3",
+      "created_at": "2026-09-05T07:20:07.581Z"
+    },
+    {
+      "id": 8,
+      "username": "RK Hospital for Women and Children",
+      "password_hash": "$2b$10$a4pR0QZSkho9/yEFEK0t8.Sw83P/pqHwpyYYv4npfUytM0hMOFQH6",
+      "role": "Hospital",
+      "entity_id": "hospital-4",
+      "created_at": "2026-09-05T07:20:07.637Z"
+    },
+    {
+      "id": 9,
+      "username": "Vasan Eye Care Hospital, Thanjavur",
+      "password_hash": "$2b$10$KIziT48hnr1E0ZzRTSIcGOjVWkihHPvF0yP947bgWc5TqO14rITG2",
+      "role": "Hospital",
+      "entity_id": "hospital-5",
+      "created_at": "2026-09-05T07:20:07.692Z"
+    },
+    {
+      "id": 10,
+      "username": "Anu Multispeciality Hospital",
+      "password_hash": "$2b$10$qreYlBk.MUqMLrwriGOK7epLOn26ewafuDYNa6qRQQ602Y70hY2kq",
+      "role": "Hospital",
+      "entity_id": "hospital-30",
+      "demo_auto_hospital": true,
+      "demo_expires_at": "2026-09-09T16:09:24.068Z",
+      "created_at": "2026-09-09T15:09:24.207Z"
+    },
+    {
+      "id": 11,
+      "username": "Abayam Hospital",
+      "password_hash": "$2b$10$/XwoJAcvzR6Bqhb0vqwE5O9qKkbek3zxklDIkDZrLZd7WS8NIgiru",
+      "role": "Hospital",
+      "entity_id": "hospital-31",
+      "demo_auto_hospital": true,
+      "demo_expires_at": "2026-09-09T16:09:24.068Z",
+      "created_at": "2026-09-09T15:09:24.281Z"
+    },
+    {
+      "id": 12,
+      "username": "Sudar Hospital",
+      "password_hash": "$2b$10$EmOfKiTkSEbVAUpyUoPGye/x3Yh0BP26uqsNSegtCDYK10nsc8RBK",
+      "role": "Hospital",
+      "entity_id": "hospital-32",
+      "demo_auto_hospital": true,
+      "demo_expires_at": "2026-09-09T16:09:24.068Z",
+      "created_at": "2026-09-09T15:09:24.357Z"
+    },
+    {
+      "id": 13,
+      "username": "KRA Hospital",
+      "password_hash": "$2b$10$4OFlhNi2jLIRSYhPsaOB.OgQWuG/4Z1oYwV5QEJyF4ATs3VaDbpqO",
+      "role": "Hospital",
+      "entity_id": "hospital-33",
+      "demo_auto_hospital": true,
+      "demo_expires_at": "2026-09-09T16:09:24.068Z",
+      "created_at": "2026-09-09T15:09:24.433Z"
+    },
+    {
+      "id": 14,
+      "username": "KG Multi Speciality Hospital and Research Centre",
+      "password_hash": "$2b$10$mxy7uM9S4S0g88estql5OeWUxFn0EAhbnYjTJUvUON1sA1YFEgc7K",
+      "role": "Hospital",
+      "entity_id": "hospital-34",
+      "demo_auto_hospital": true,
+      "demo_expires_at": "2026-09-09T16:09:24.068Z",
+      "created_at": "2026-09-09T15:09:24.507Z"
+    },
+    {
+      "id": 15,
+      "username": "Sudhakar Child Hospital",
+      "password_hash": "$2b$10$VZUQUyeMzhj0mwlG1Wg3D.VZ.BF0PC4rYzEq78mKdbhjTkfQZfDaK",
+      "role": "Hospital",
+      "entity_id": "hospital-35",
+      "demo_auto_hospital": true,
+      "demo_expires_at": "2026-09-09T16:09:24.068Z",
+      "created_at": "2026-09-09T15:09:24.581Z"
+    },
+    {
+      "id": 16,
+      "username": "Keerthana Hospital",
+      "password_hash": "$2b$10$WX6FhnizPj4VxJ/WhJuuguhnfgomC/dUuxYqjWQejN2BPTxx4H/xe",
+      "role": "Hospital",
+      "entity_id": "hospital-36",
+      "demo_auto_hospital": true,
+      "demo_expires_at": "2026-09-09T16:09:24.068Z",
+      "created_at": "2026-09-09T15:09:24.655Z"
+    },
+    {
+      "id": 17,
+      "username": "KDR Hospital",
+      "password_hash": "$2b$10$2vvkvVkcTpf/F4U5WjBSz.lMJq/x0hZvxmFw6V1wc4PX1Pfn6jSEe",
+      "role": "Hospital",
+      "entity_id": "hospital-37",
+      "demo_auto_hospital": true,
+      "demo_expires_at": "2026-09-09T16:09:24.068Z",
+      "created_at": "2026-09-09T15:09:24.738Z"
+    },
+    {
+      "id": 18,
+      "username": "Government Eye Hospital",
+      "password_hash": "$2b$10$LHU1JxXSHgBRr0orjeW.VOAyzuuu/5HbCTUjllptcaHDmAnhvHNPC",
+      "role": "Hospital",
+      "entity_id": "hospital-38",
+      "demo_auto_hospital": true,
+      "demo_expires_at": "2026-09-09T16:09:24.068Z",
+      "created_at": "2026-09-09T15:09:24.808Z"
+    },
+    {
+      "id": 19,
+      "username": "P.K. Hospital",
+      "password_hash": "$2b$10$.09mUYFjBsmMB2jqHE9qyubILmDbmGljwh7.iV/EqoKo1./RyQWnS",
+      "role": "Hospital",
+      "entity_id": "hospital-39",
+      "demo_auto_hospital": true,
+      "demo_expires_at": "2026-09-09T16:09:24.068Z",
+      "created_at": "2026-09-09T15:09:24.910Z"
+    },
+    {
+      "id": 20,
+      "username": "Dr. Muthiah Pandian Eye Hospital",
+      "password_hash": "$2b$10$bryHieWSj2w1ewvsAsXwGe3vOMoOdTwT8LvPawVx2avLvKU0mk8hu",
+      "role": "Hospital",
+      "entity_id": "hospital-40",
+      "demo_auto_hospital": true,
+      "demo_expires_at": "2026-09-09T16:09:24.068Z",
+      "created_at": "2026-09-09T15:09:24.986Z"
+    },
+    {
+      "id": 21,
+      "username": "Dr. V.V.R. Hospital, Thanjavur",
+      "password_hash": "$2b$10$QlRyDy2HGboNJa5PHcT12.k1EVyMH3/J3wtdPYfV43ZjjpUQkCP/G",
+      "role": "Hospital",
+      "entity_id": "hospital-41",
+      "demo_auto_hospital": true,
+      "demo_expires_at": "2026-09-09T16:09:24.068Z",
+      "created_at": "2026-09-09T15:09:25.060Z"
+    },
+    {
+      "id": 22,
+      "username": "Marudupandiyar Hospital",
+      "password_hash": "$2b$10$sk/30EqmssojR3U/h3AWaONsnkjOOdRbGPg2NAOuptQ15.FGRtLE6",
+      "role": "Hospital",
+      "entity_id": "hospital-42",
+      "demo_auto_hospital": true,
+      "demo_expires_at": "2026-09-09T16:09:24.068Z",
+      "created_at": "2026-09-09T15:09:25.149Z"
+    },
+    {
+      "id": 23,
+      "username": "Bharani Hospitals",
+      "password_hash": "$2b$10$B011I9wQQJr7DLb0tr6Ri.cb6Eo5a5ZRkvKFLICIU/ryV3fvztfNi",
+      "role": "Hospital",
+      "entity_id": "hospital-43",
+      "demo_auto_hospital": true,
+      "demo_expires_at": "2026-09-09T16:09:24.068Z",
+      "created_at": "2026-09-09T15:09:25.237Z"
+    },
+    {
+      "id": 24,
+      "username": "Vijay Hospital",
+      "password_hash": "$2b$10$NeNYOFoo.jmh0zctFHGAaOz6qCLumojwDpIg9SLFH0tFii.kIHR5K",
+      "role": "Hospital",
+      "entity_id": "hospital-44",
+      "demo_auto_hospital": true,
+      "demo_expires_at": "2026-09-09T16:09:24.068Z",
+      "created_at": "2026-09-09T15:09:25.338Z"
+    }
+  ],
+  "hospitals": [
+    {
+      "id": 2,
+      "owner_entity_id": "hospital-2",
+      "osm_id": "osm-node-7829528869",
+      "name": "Railtree Railway Hospital",
+      "lat": 10.7760385,
+      "lon": 79.139928,
+      "enabled": false,
+      "status": "Unavailable",
+      "beds": 28,
+      "available_beds": 28,
+      "icu": 8,
+      "available_icu": 8,
+      "staff": "Low",
+      "load": 28,
+      "equipment": [
+        "Emergency",
+        "Trauma",
+        "ICU",
+        "Blood Bank",
+        "Ventilator Support",
+        "CT",
+        "X-Ray",
+        "Ultrasound",
+        "Blood Transfusion",
+        "OT",
+        "Orthopedics",
+        "Pulmonology"
+      ],
+      "capabilities": [
+        {
+          "name": "Emergency",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Trauma",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "ICU",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Blood Bank",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ventilator Support",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "CT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "X-Ray",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ultrasound",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Blood Transfusion",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "OT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Pulmonology",
+          "source": "standard",
+          "status": "Available"
+        }
+      ],
+      "source": "demo-auto",
+      "demo": true,
+      "demo_tier": "Advanced Emergency Hospital",
+      "updated_at": "2026-09-09T15:14:03.211Z"
+    },
+    {
+      "id": 3,
+      "owner_entity_id": "hospital-3",
+      "osm_id": "osm-node-7829528814",
+      "name": "Army Hospital",
+      "lat": 10.7791503,
+      "lon": 79.1411588,
+      "enabled": true,
+      "status": "Busy",
+      "beds": 20,
+      "available_beds": 20,
+      "icu": 4,
+      "available_icu": 4,
+      "staff": "Medium",
+      "load": 48,
+      "equipment": [
+        "Emergency",
+        "ICU",
+        "Trauma",
+        "CT",
+        "X-Ray",
+        "Ultrasound",
+        "Orthopedics",
+        "Blood Transfusion"
+      ],
+      "capabilities": [
+        {
+          "name": "Emergency",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "ICU",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Trauma",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "CT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "X-Ray",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ultrasound",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Blood Transfusion",
+          "source": "standard",
+          "status": "Available"
+        }
+      ],
+      "source": "demo-auto",
+      "demo": true,
+      "demo_tier": "General Emergency Hospital",
+      "updated_at": "2026-09-05T07:06:23.301Z"
+    },
+    {
+      "id": 4,
+      "owner_entity_id": "hospital-4",
+      "osm_id": "osm-node-7829528851",
+      "name": "RK Hospital for Women and Children",
+      "lat": 10.775351,
+      "lon": 79.138256,
+      "enabled": true,
+      "status": "Ready",
+      "beds": 16,
+      "available_beds": 16,
+      "icu": 3,
+      "available_icu": 3,
+      "staff": "Medium",
+      "load": 35,
+      "equipment": [
+        "Emergency",
+        "Trauma",
+        "CT",
+        "X-Ray",
+        "Orthopedics",
+        "Pediatrics"
+      ],
+      "capabilities": [
+        {
+          "name": "Emergency",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Trauma",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "CT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "X-Ray",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Pediatrics",
+          "source": "standard",
+          "status": "Available"
+        }
+      ],
+      "source": "demo-auto",
+      "demo": true,
+      "demo_tier": "District Emergency Hospital",
+      "updated_at": "2026-09-05T07:06:23.301Z"
+    },
+    {
+      "id": 5,
+      "owner_entity_id": "hospital-5",
+      "osm_id": "osm-node-6916168928",
+      "name": "Vasan Eye Care Hospital, Thanjavur",
+      "lat": 10.7800915,
+      "lon": 79.1395774,
+      "enabled": true,
+      "status": "Busy",
+      "beds": 10,
+      "available_beds": 10,
+      "icu": 2,
+      "available_icu": 2,
+      "staff": "Medium",
+      "load": 55,
+      "equipment": [
+        "Emergency",
+        "X-Ray",
+        "Ultrasound",
+        "Orthopedics",
+        "Pediatrics"
+      ],
+      "capabilities": [
+        {
+          "name": "Emergency",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "X-Ray",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ultrasound",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Pediatrics",
+          "source": "standard",
+          "status": "Available"
+        }
+      ],
+      "source": "demo-auto",
+      "demo": true,
+      "demo_tier": "Community Emergency Hospital",
+      "updated_at": "2026-09-05T07:06:23.301Z"
+    },
+    {
+      "id": 25,
+      "owner_entity_id": null,
+      "osm_id": "7829528852",
+      "name": "Anna Hospital",
+      "lat": 10.7769685,
+      "lon": 79.1479821,
+      "enabled": true,
+      "status": "Busy",
+      "beds": 10,
+      "available_beds": 10,
+      "icu": 1,
+      "available_icu": 1,
+      "staff": "Medium",
+      "load": 55,
+      "equipment": [
+        "Emergency",
+        "X-Ray",
+        "Ultrasound",
+        "Orthopedics",
+        "Pediatrics"
+      ],
+      "capabilities": [
+        {
+          "name": "Emergency",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "X-Ray",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ultrasound",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Pediatrics",
+          "source": "standard",
+          "status": "Available"
+        }
+      ],
+      "source": "demo-auto",
+      "demo": true,
+      "demo_tier": "Community Emergency Hospital",
+      "demo_expires_at": "2026-09-09T16:13:03.498Z",
+      "updated_at": "2026-09-09T15:13:03.498Z"
+    },
+    {
+      "id": 26,
+      "owner_entity_id": null,
+      "osm_id": "7829528869",
+      "name": "Railtree Railway Hospital",
+      "lat": 10.7760385,
+      "lon": 79.139928,
+      "enabled": true,
+      "status": "Ready",
+      "beds": 36,
+      "available_beds": 36,
+      "icu": 12,
+      "available_icu": 12,
+      "staff": "High",
+      "load": 18,
+      "equipment": [
+        "Emergency",
+        "Cardiology",
+        "ICU",
+        "Cath Lab",
+        "Trauma",
+        "Blood Bank",
+        "Ventilator Support",
+        "CT",
+        "MRI",
+        "X-Ray",
+        "Ultrasound",
+        "Blood Transfusion",
+        "OT",
+        "Orthopedics",
+        "Neurology",
+        "Pulmonology",
+        "Nephrology"
+      ],
+      "capabilities": [
+        {
+          "name": "Emergency",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Cardiology",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "ICU",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Cath Lab",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Trauma",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Blood Bank",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ventilator Support",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "CT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "MRI",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "X-Ray",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ultrasound",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Blood Transfusion",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "OT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Neurology",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Pulmonology",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Nephrology",
+          "source": "standard",
+          "status": "Available"
+        }
+      ],
+      "source": "demo-auto",
+      "demo": true,
+      "demo_tier": "Comprehensive Emergency Hospital",
+      "demo_expires_at": "2026-09-09T16:13:03.498Z",
+      "updated_at": "2026-09-09T15:13:03.498Z"
+    },
+    {
+      "id": 27,
+      "owner_entity_id": null,
+      "osm_id": "7829528814",
+      "name": "Army Hospital",
+      "lat": 10.7791503,
+      "lon": 79.1411588,
+      "enabled": true,
+      "status": "Ready",
+      "beds": 28,
+      "available_beds": 28,
+      "icu": 8,
+      "available_icu": 8,
+      "staff": "High",
+      "load": 28,
+      "equipment": [
+        "Emergency",
+        "Trauma",
+        "ICU",
+        "Blood Bank",
+        "Ventilator Support",
+        "CT",
+        "X-Ray",
+        "Ultrasound",
+        "Blood Transfusion",
+        "OT",
+        "Orthopedics",
+        "Pulmonology"
+      ],
+      "capabilities": [
+        {
+          "name": "Emergency",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Trauma",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "ICU",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Blood Bank",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ventilator Support",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "CT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "X-Ray",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ultrasound",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Blood Transfusion",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "OT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Pulmonology",
+          "source": "standard",
+          "status": "Available"
+        }
+      ],
+      "source": "demo-auto",
+      "demo": true,
+      "demo_tier": "Advanced Emergency Hospital",
+      "demo_expires_at": "2026-09-09T16:13:03.498Z",
+      "updated_at": "2026-09-09T15:13:03.498Z"
+    },
+    {
+      "id": 28,
+      "owner_entity_id": null,
+      "osm_id": "7829528851",
+      "name": "RK Hospital for Women and Children",
+      "lat": 10.775351,
+      "lon": 79.138256,
+      "enabled": true,
+      "status": "Busy",
+      "beds": 20,
+      "available_beds": 20,
+      "icu": 4,
+      "available_icu": 4,
+      "staff": "Medium",
+      "load": 48,
+      "equipment": [
+        "Emergency",
+        "ICU",
+        "Trauma",
+        "CT",
+        "X-Ray",
+        "Ultrasound",
+        "Orthopedics",
+        "Blood Transfusion"
+      ],
+      "capabilities": [
+        {
+          "name": "Emergency",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "ICU",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Trauma",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "CT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "X-Ray",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ultrasound",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Blood Transfusion",
+          "source": "standard",
+          "status": "Available"
+        }
+      ],
+      "source": "demo-auto",
+      "demo": true,
+      "demo_tier": "General Emergency Hospital",
+      "demo_expires_at": "2026-09-09T16:13:03.498Z",
+      "updated_at": "2026-09-09T15:13:03.498Z"
+    },
+    {
+      "id": 29,
+      "owner_entity_id": null,
+      "osm_id": "6916168928",
+      "name": "Vasan Eye Care Hospital, Thanjavur",
+      "lat": 10.7800915,
+      "lon": 79.1395774,
+      "enabled": true,
+      "status": "Ready",
+      "beds": 16,
+      "available_beds": 16,
+      "icu": 3,
+      "available_icu": 3,
+      "staff": "Medium",
+      "load": 35,
+      "equipment": [
+        "Emergency",
+        "Trauma",
+        "CT",
+        "X-Ray",
+        "Orthopedics",
+        "Pediatrics"
+      ],
+      "capabilities": [
+        {
+          "name": "Emergency",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Trauma",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "CT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "X-Ray",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Pediatrics",
+          "source": "standard",
+          "status": "Available"
+        }
+      ],
+      "source": "demo-auto",
+      "demo": true,
+      "demo_tier": "District Emergency Hospital",
+      "demo_expires_at": "2026-09-09T16:13:03.498Z",
+      "updated_at": "2026-09-09T15:13:03.498Z"
+    },
+    {
+      "id": 30,
+      "owner_entity_id": "hospital-30",
+      "osm_id": "6934347099",
+      "name": "Anu Multispeciality Hospital",
+      "lat": 10.7749587,
+      "lon": 79.1377428,
+      "enabled": true,
+      "status": "Busy",
+      "beds": 10,
+      "available_beds": 10,
+      "icu": 1,
+      "available_icu": 1,
+      "staff": "Medium",
+      "load": 55,
+      "equipment": [
+        "Emergency",
+        "X-Ray",
+        "Ultrasound",
+        "Orthopedics",
+        "Pediatrics"
+      ],
+      "capabilities": [
+        {
+          "name": "Emergency",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "X-Ray",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ultrasound",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Pediatrics",
+          "source": "standard",
+          "status": "Available"
+        }
+      ],
+      "source": "demo-auto",
+      "demo": true,
+      "demo_tier": "Community Emergency Hospital",
+      "demo_expires_at": "2026-09-09T16:13:03.498Z",
+      "updated_at": "2026-09-09T15:13:03.498Z"
+    },
+    {
+      "id": 31,
+      "owner_entity_id": "hospital-31",
+      "osm_id": "7829528860",
+      "name": "Abayam Hospital",
+      "lat": 10.774129,
+      "lon": 79.1370851,
+      "enabled": true,
+      "status": "Ready",
+      "beds": 36,
+      "available_beds": 36,
+      "icu": 12,
+      "available_icu": 12,
+      "staff": "High",
+      "load": 18,
+      "equipment": [
+        "Emergency",
+        "Cardiology",
+        "ICU",
+        "Cath Lab",
+        "Trauma",
+        "Blood Bank",
+        "Ventilator Support",
+        "CT",
+        "MRI",
+        "X-Ray",
+        "Ultrasound",
+        "Blood Transfusion",
+        "OT",
+        "Orthopedics",
+        "Neurology",
+        "Pulmonology",
+        "Nephrology"
+      ],
+      "capabilities": [
+        {
+          "name": "Emergency",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Cardiology",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "ICU",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Cath Lab",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Trauma",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Blood Bank",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ventilator Support",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "CT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "MRI",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "X-Ray",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ultrasound",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Blood Transfusion",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "OT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Neurology",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Pulmonology",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Nephrology",
+          "source": "standard",
+          "status": "Available"
+        }
+      ],
+      "source": "demo-auto",
+      "demo": true,
+      "demo_tier": "Comprehensive Emergency Hospital",
+      "demo_expires_at": "2026-09-09T16:13:03.498Z",
+      "updated_at": "2026-09-09T15:13:03.498Z"
+    },
+    {
+      "id": 32,
+      "owner_entity_id": "hospital-32",
+      "osm_id": "654137406",
+      "name": "Sudar Hospital",
+      "lat": 10.7806464,
+      "lon": 79.1465695,
+      "enabled": true,
+      "status": "Ready",
+      "beds": 28,
+      "available_beds": 28,
+      "icu": 8,
+      "available_icu": 8,
+      "staff": "High",
+      "load": 28,
+      "equipment": [
+        "Emergency",
+        "Trauma",
+        "ICU",
+        "Blood Bank",
+        "Ventilator Support",
+        "CT",
+        "X-Ray",
+        "Ultrasound",
+        "Blood Transfusion",
+        "OT",
+        "Orthopedics",
+        "Pulmonology"
+      ],
+      "capabilities": [
+        {
+          "name": "Emergency",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Trauma",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "ICU",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Blood Bank",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ventilator Support",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "CT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "X-Ray",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ultrasound",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Blood Transfusion",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "OT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Pulmonology",
+          "source": "standard",
+          "status": "Available"
+        }
+      ],
+      "source": "demo-auto",
+      "demo": true,
+      "demo_tier": "Advanced Emergency Hospital",
+      "demo_expires_at": "2026-09-09T16:13:03.498Z",
+      "updated_at": "2026-09-09T15:13:03.498Z"
+    },
+    {
+      "id": 33,
+      "owner_entity_id": "hospital-33",
+      "osm_id": "670883889",
+      "name": "KRA Hospital",
+      "lat": 10.7869754,
+      "lon": 79.1397985,
+      "enabled": true,
+      "status": "Busy",
+      "beds": 20,
+      "available_beds": 20,
+      "icu": 4,
+      "available_icu": 4,
+      "staff": "Medium",
+      "load": 48,
+      "equipment": [
+        "Emergency",
+        "ICU",
+        "Trauma",
+        "CT",
+        "X-Ray",
+        "Ultrasound",
+        "Orthopedics",
+        "Blood Transfusion"
+      ],
+      "capabilities": [
+        {
+          "name": "Emergency",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "ICU",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Trauma",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "CT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "X-Ray",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ultrasound",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Blood Transfusion",
+          "source": "standard",
+          "status": "Available"
+        }
+      ],
+      "source": "demo-auto",
+      "demo": true,
+      "demo_tier": "General Emergency Hospital",
+      "demo_expires_at": "2026-09-09T16:13:03.498Z",
+      "updated_at": "2026-09-09T15:13:03.498Z"
+    },
+    {
+      "id": 34,
+      "owner_entity_id": "hospital-34",
+      "osm_id": "7829528877",
+      "name": "KG Multi Speciality Hospital and Research Centre",
+      "lat": 10.776716,
+      "lon": 79.136724,
+      "enabled": true,
+      "status": "Ready",
+      "beds": 16,
+      "available_beds": 16,
+      "icu": 3,
+      "available_icu": 3,
+      "staff": "Medium",
+      "load": 35,
+      "equipment": [
+        "Emergency",
+        "Trauma",
+        "CT",
+        "X-Ray",
+        "Orthopedics",
+        "Pediatrics"
+      ],
+      "capabilities": [
+        {
+          "name": "Emergency",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Trauma",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "CT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "X-Ray",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Pediatrics",
+          "source": "standard",
+          "status": "Available"
+        }
+      ],
+      "source": "demo-auto",
+      "demo": true,
+      "demo_tier": "District Emergency Hospital",
+      "demo_expires_at": "2026-09-09T16:13:03.498Z",
+      "updated_at": "2026-09-09T15:13:03.498Z"
+    },
+    {
+      "id": 35,
+      "owner_entity_id": "hospital-35",
+      "osm_id": "7829528820",
+      "name": "Sudhakar Child Hospital",
+      "lat": 10.7931236,
+      "lon": 79.1419772,
+      "enabled": true,
+      "status": "Busy",
+      "beds": 10,
+      "available_beds": 10,
+      "icu": 1,
+      "available_icu": 1,
+      "staff": "Medium",
+      "load": 55,
+      "equipment": [
+        "Emergency",
+        "X-Ray",
+        "Ultrasound",
+        "Orthopedics",
+        "Pediatrics"
+      ],
+      "capabilities": [
+        {
+          "name": "Emergency",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "X-Ray",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ultrasound",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Pediatrics",
+          "source": "standard",
+          "status": "Available"
+        }
+      ],
+      "source": "demo-auto",
+      "demo": true,
+      "demo_tier": "Community Emergency Hospital",
+      "demo_expires_at": "2026-09-09T16:13:03.498Z",
+      "updated_at": "2026-09-09T15:13:03.498Z"
+    },
+    {
+      "id": 36,
+      "owner_entity_id": "hospital-36",
+      "osm_id": "6934015411",
+      "name": "Keerthana Hospital",
+      "lat": 10.7831809,
+      "lon": 79.1408978,
+      "enabled": true,
+      "status": "Ready",
+      "beds": 36,
+      "available_beds": 36,
+      "icu": 12,
+      "available_icu": 12,
+      "staff": "High",
+      "load": 18,
+      "equipment": [
+        "Emergency",
+        "Cardiology",
+        "ICU",
+        "Cath Lab",
+        "Trauma",
+        "Blood Bank",
+        "Ventilator Support",
+        "CT",
+        "MRI",
+        "X-Ray",
+        "Ultrasound",
+        "Blood Transfusion",
+        "OT",
+        "Orthopedics",
+        "Neurology",
+        "Pulmonology",
+        "Nephrology"
+      ],
+      "capabilities": [
+        {
+          "name": "Emergency",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Cardiology",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "ICU",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Cath Lab",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Trauma",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Blood Bank",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ventilator Support",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "CT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "MRI",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "X-Ray",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ultrasound",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Blood Transfusion",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "OT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Neurology",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Pulmonology",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Nephrology",
+          "source": "standard",
+          "status": "Available"
+        }
+      ],
+      "source": "demo-auto",
+      "demo": true,
+      "demo_tier": "Comprehensive Emergency Hospital",
+      "demo_expires_at": "2026-09-09T16:13:03.498Z",
+      "updated_at": "2026-09-09T15:13:03.498Z"
+    },
+    {
+      "id": 37,
+      "owner_entity_id": "hospital-37",
+      "osm_id": "7829528815",
+      "name": "KDR Hospital",
+      "lat": 10.772509,
+      "lon": 79.137518,
+      "enabled": true,
+      "status": "Ready",
+      "beds": 28,
+      "available_beds": 28,
+      "icu": 8,
+      "available_icu": 8,
+      "staff": "High",
+      "load": 28,
+      "equipment": [
+        "Emergency",
+        "Trauma",
+        "ICU",
+        "Blood Bank",
+        "Ventilator Support",
+        "CT",
+        "X-Ray",
+        "Ultrasound",
+        "Blood Transfusion",
+        "OT",
+        "Orthopedics",
+        "Pulmonology"
+      ],
+      "capabilities": [
+        {
+          "name": "Emergency",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Trauma",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "ICU",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Blood Bank",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ventilator Support",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "CT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "X-Ray",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ultrasound",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Blood Transfusion",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "OT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Pulmonology",
+          "source": "standard",
+          "status": "Available"
+        }
+      ],
+      "source": "demo-auto",
+      "demo": true,
+      "demo_tier": "Advanced Emergency Hospital",
+      "demo_expires_at": "2026-09-09T16:13:03.498Z",
+      "updated_at": "2026-09-09T15:13:03.498Z"
+    },
+    {
+      "id": 38,
+      "owner_entity_id": "hospital-38",
+      "osm_id": "7829528842",
+      "name": "Government Eye Hospital",
+      "lat": 10.7853614,
+      "lon": 79.1385707,
+      "enabled": true,
+      "status": "Busy",
+      "beds": 20,
+      "available_beds": 20,
+      "icu": 4,
+      "available_icu": 4,
+      "staff": "Medium",
+      "load": 48,
+      "equipment": [
+        "Emergency",
+        "ICU",
+        "Trauma",
+        "CT",
+        "X-Ray",
+        "Ultrasound",
+        "Orthopedics",
+        "Blood Transfusion"
+      ],
+      "capabilities": [
+        {
+          "name": "Emergency",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "ICU",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Trauma",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "CT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "X-Ray",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ultrasound",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Blood Transfusion",
+          "source": "standard",
+          "status": "Available"
+        }
+      ],
+      "source": "demo-auto",
+      "demo": true,
+      "demo_tier": "General Emergency Hospital",
+      "demo_expires_at": "2026-09-09T16:13:03.498Z",
+      "updated_at": "2026-09-09T15:13:03.498Z"
+    },
+    {
+      "id": 39,
+      "owner_entity_id": "hospital-39",
+      "osm_id": "6933992447",
+      "name": "P.K. Hospital",
+      "lat": 10.7860529,
+      "lon": 79.1399771,
+      "enabled": true,
+      "status": "Ready",
+      "beds": 16,
+      "available_beds": 16,
+      "icu": 3,
+      "available_icu": 3,
+      "staff": "Medium",
+      "load": 35,
+      "equipment": [
+        "Emergency",
+        "Trauma",
+        "CT",
+        "X-Ray",
+        "Orthopedics",
+        "Pediatrics"
+      ],
+      "capabilities": [
+        {
+          "name": "Emergency",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Trauma",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "CT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "X-Ray",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Pediatrics",
+          "source": "standard",
+          "status": "Available"
+        }
+      ],
+      "source": "demo-auto",
+      "demo": true,
+      "demo_tier": "District Emergency Hospital",
+      "demo_expires_at": "2026-09-09T16:13:03.498Z",
+      "updated_at": "2026-09-09T15:13:03.498Z"
+    },
+    {
+      "id": 40,
+      "owner_entity_id": "hospital-40",
+      "osm_id": "7829528818",
+      "name": "Dr. Muthiah Pandian Eye Hospital",
+      "lat": 10.78456,
+      "lon": 79.1415259,
+      "enabled": true,
+      "status": "Busy",
+      "beds": 10,
+      "available_beds": 10,
+      "icu": 1,
+      "available_icu": 1,
+      "staff": "Medium",
+      "load": 55,
+      "equipment": [
+        "Emergency",
+        "X-Ray",
+        "Ultrasound",
+        "Orthopedics",
+        "Pediatrics"
+      ],
+      "capabilities": [
+        {
+          "name": "Emergency",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "X-Ray",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ultrasound",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Pediatrics",
+          "source": "standard",
+          "status": "Available"
+        }
+      ],
+      "source": "demo-auto",
+      "demo": true,
+      "demo_tier": "Community Emergency Hospital",
+      "demo_expires_at": "2026-09-09T16:13:03.498Z",
+      "updated_at": "2026-09-09T15:13:03.498Z"
+    },
+    {
+      "id": 41,
+      "owner_entity_id": "hospital-41",
+      "osm_id": "7252225820",
+      "name": "Dr. V.V.R. Hospital, Thanjavur",
+      "lat": 10.76872,
+      "lon": 79.138276,
+      "enabled": true,
+      "status": "Ready",
+      "beds": 36,
+      "available_beds": 36,
+      "icu": 12,
+      "available_icu": 12,
+      "staff": "High",
+      "load": 18,
+      "equipment": [
+        "Emergency",
+        "Cardiology",
+        "ICU",
+        "Cath Lab",
+        "Trauma",
+        "Blood Bank",
+        "Ventilator Support",
+        "CT",
+        "MRI",
+        "X-Ray",
+        "Ultrasound",
+        "Blood Transfusion",
+        "OT",
+        "Orthopedics",
+        "Neurology",
+        "Pulmonology",
+        "Nephrology"
+      ],
+      "capabilities": [
+        {
+          "name": "Emergency",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Cardiology",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "ICU",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Cath Lab",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Trauma",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Blood Bank",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ventilator Support",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "CT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "MRI",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "X-Ray",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ultrasound",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Blood Transfusion",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "OT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Neurology",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Pulmonology",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Nephrology",
+          "source": "standard",
+          "status": "Available"
+        }
+      ],
+      "source": "demo-auto",
+      "demo": true,
+      "demo_tier": "Comprehensive Emergency Hospital",
+      "demo_expires_at": "2026-09-09T16:13:03.498Z",
+      "updated_at": "2026-09-09T15:13:03.498Z"
+    },
+    {
+      "id": 42,
+      "owner_entity_id": "hospital-42",
+      "osm_id": "7829528828",
+      "name": "Marudupandiyar Hospital",
+      "lat": 10.7634249,
+      "lon": 79.1476612,
+      "enabled": true,
+      "status": "Ready",
+      "beds": 28,
+      "available_beds": 28,
+      "icu": 8,
+      "available_icu": 8,
+      "staff": "High",
+      "load": 28,
+      "equipment": [
+        "Emergency",
+        "Trauma",
+        "ICU",
+        "Blood Bank",
+        "Ventilator Support",
+        "CT",
+        "X-Ray",
+        "Ultrasound",
+        "Blood Transfusion",
+        "OT",
+        "Orthopedics",
+        "Pulmonology"
+      ],
+      "capabilities": [
+        {
+          "name": "Emergency",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Trauma",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "ICU",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Blood Bank",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ventilator Support",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "CT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "X-Ray",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ultrasound",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Blood Transfusion",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "OT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Pulmonology",
+          "source": "standard",
+          "status": "Available"
+        }
+      ],
+      "source": "demo-auto",
+      "demo": true,
+      "demo_tier": "Advanced Emergency Hospital",
+      "demo_expires_at": "2026-09-09T16:13:03.498Z",
+      "updated_at": "2026-09-09T15:13:03.498Z"
+    },
+    {
+      "id": 43,
+      "owner_entity_id": "hospital-43",
+      "osm_id": "7252225707",
+      "name": "Bharani Hospitals",
+      "lat": 10.76278,
+      "lon": 79.139549,
+      "enabled": true,
+      "status": "Busy",
+      "beds": 20,
+      "available_beds": 20,
+      "icu": 4,
+      "available_icu": 4,
+      "staff": "Medium",
+      "load": 48,
+      "equipment": [
+        "Emergency",
+        "ICU",
+        "Trauma",
+        "CT",
+        "X-Ray",
+        "Ultrasound",
+        "Orthopedics",
+        "Blood Transfusion"
+      ],
+      "capabilities": [
+        {
+          "name": "Emergency",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "ICU",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Trauma",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "CT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "X-Ray",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Ultrasound",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Blood Transfusion",
+          "source": "standard",
+          "status": "Available"
+        }
+      ],
+      "source": "demo-auto",
+      "demo": true,
+      "demo_tier": "General Emergency Hospital",
+      "demo_expires_at": "2026-09-09T16:13:03.498Z",
+      "updated_at": "2026-09-09T15:13:03.498Z"
+    },
+    {
+      "id": 44,
+      "owner_entity_id": "hospital-44",
+      "osm_id": "7829528856",
+      "name": "Vijay Hospital",
+      "lat": 10.7608246,
+      "lon": 79.1400739,
+      "enabled": true,
+      "status": "Ready",
+      "beds": 16,
+      "available_beds": 16,
+      "icu": 3,
+      "available_icu": 3,
+      "staff": "Medium",
+      "load": 35,
+      "equipment": [
+        "Emergency",
+        "Trauma",
+        "CT",
+        "X-Ray",
+        "Orthopedics",
+        "Pediatrics"
+      ],
+      "capabilities": [
+        {
+          "name": "Emergency",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Trauma",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "CT",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "X-Ray",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Orthopedics",
+          "source": "standard",
+          "status": "Available"
+        },
+        {
+          "name": "Pediatrics",
+          "source": "standard",
+          "status": "Available"
+        }
+      ],
+      "source": "demo-auto",
+      "demo": true,
+      "demo_tier": "District Emergency Hospital",
+      "demo_expires_at": "2026-09-09T16:13:03.498Z",
+      "updated_at": "2026-09-09T15:13:03.498Z"
+    }
+  ],
+  "emergencies": [],
+  "referrals": [],
+  "hospital_claims": [],
+  "ambulance_locations": [
+    {
+      "id": "AMB-17",
+      "ambulance_id": "AMB-17",
+      "lat": 10.775256098953294,
+      "lon": 79.17303627337498,
+      "emergency_id": "EMR-2048",
+      "destination_hospital_id": 2,
+      "eta_minutes": 6,
+      "distance_km": 4.449,
+      "updated_at": "2026-09-09T15:20:54.968Z"
+    }
+  ],
+  "ambulances": [
+    {
+      "id": "AMB-17",
+      "vehicle_number": "DEMO-AMB-17",
+      "crew_name": "Demo Crew",
+      "contact": "",
+      "type": "Advanced Life Support",
+      "status": "Active",
+      "created_at": "2026-09-04T15:57:03.001Z"
+    }
+  ],
+  "ambulance_access_requests": []
+}
