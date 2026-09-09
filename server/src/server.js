@@ -47,7 +47,7 @@ if(!db.users.length){
 if(!db.ambulances.some(a=>a.id==='AMB-17'))db.ambulances.push({id:'AMB-17',vehicle_number:'DEMO-AMB-17',crew_name:'Demo Crew',contact:'',type:'Advanced Life Support',status:'Active',created_at:now()});
 save();
 
-const app=express();app.use(cors());app.use(express.json());
+const app=express();app.use(cors({origin:'https://heamkumar2612.github.io',methods:['GET','POST','PUT','PATCH','DELETE','OPTIONS'],allowedHeaders:['Content-Type','Authorization'],optionsSuccessStatus:204}));app.options('/api/auth/login',cors());app.use(express.json());
 const tokenFor=u=>jwt.sign({id:u.id,username:u.username,role:u.role,entityId:u.entity_id},JWT_SECRET,{expiresIn:'12h'});
 function auth(req,res,next){const h=req.headers.authorization||'';if(!h.startsWith('Bearer '))return res.status(401).json({error:'Authentication required'});try{req.user=jwt.verify(h.slice(7),JWT_SECRET);next()}catch{return res.status(401).json({error:'Invalid or expired session'})}}
 function role(...roles){return (req,res,next)=>roles.includes(req.user.role)?next():res.status(403).json({error:'Insufficient permissions'})}
