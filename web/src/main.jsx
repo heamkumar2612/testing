@@ -11,8 +11,8 @@ const TILE='https://tile.openstreetmap.org/{z}/{x}/{y}.png';
 const OVERPASS=['https://overpass-api.de/api/interpreter','https://overpass.kumi.systems/api/interpreter'];
 const ROUTERS=['https://router.project-osrm.org','https://routing.openstreetmap.de/routed-car'];
 
-const API_BASE=import.meta.env.VITE_API_BASE_URL||'/api';
-async function api(path,options={}){const token=sessionStorage.getItem('resqflow_token');const headers={'Content-Type':'application/json',...(options.headers||{})};if(token)headers.Authorization=`Bearer ${token}`;const r=await fetch(`${API_BASE}${path}`,{...options,headers});let data={};try{data=await r.json()}catch{};if(!r.ok)throw new Error(data.error||`API ${r.status}`);return data;}
+const API_BASE=(import.meta.env.VITE_API_BASE_URL||'/api').replace(/\/$/,'');
+async function api(path,options={}){const token=sessionStorage.getItem('resqflow_token');const headers={'Content-Type':'application/json',...(options.headers||{})};if(token)headers.Authorization=`Bearer ${token}`;let r;try{r=await fetch(`${API_BASE}${path}`,{...options,headers});}catch(error){if(error instanceof TypeError)throw new Error('Cannot reach the Kairos backend. Wait a moment and try again. If it continues, check the backend deployment.');throw error;}let data={};try{data=await r.json()}catch{};if(!r.ok)throw new Error(data.error||`API ${r.status}`);return data;}
 
 const DEFAULT_HOSPITAL_PROFILE={name:'',enabled:true,status:'Ready',beds:10,icu:2,staff:'High',load:20,equipment:['Trauma','ICU','Blood Bank'],location:null};
 
