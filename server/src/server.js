@@ -533,4 +533,7 @@ app.post('/api/referrals',auth,(req,res)=>{
 });
 
 setInterval(cleanupExpiredDemoHospitalAccounts,60*1000);
+// The API is deployed separately from the Vite frontend.  Expose a small
+// service document at its root instead of returning Express's default 404.
+app.get('/',(req,res)=>res.json({ok:true,service:'Kairos API',health:'/api/health'}));
 app.listen(PORT,'0.0.0.0',()=>console.log(`Kairos API running on http://localhost:${PORT}`));
