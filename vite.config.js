@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react';
 import { viteSingleFile } from 'vite-plugin-singlefile';
 export default defineConfig(({mode})=>({
   plugins:[react(), ...(mode==='singlefile'?[viteSingleFile()]:[])],
-  base: mode==='singlefile' ? './' : '/testing/',
+  base: mode==='singlefile' ? './' : '/kairos/',
   server:{proxy:{'/api':'http://localhost:4000'}}
 }));
